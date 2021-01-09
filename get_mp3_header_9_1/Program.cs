@@ -23,6 +23,8 @@ namespace get_mp3_header_9_1
                 i_buff++;
             }
 
+            Console.WriteLine(i_buff);
+
             Console.ReadLine();
         }
     }
