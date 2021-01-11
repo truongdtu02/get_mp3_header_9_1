@@ -12,11 +12,11 @@ namespace get_mp3_header_9_1
         {
             Console.WriteLine("Hello World!");
 
-            //string _filePath = "Binz22.mp3";
+            string _filePath = "Binz2.mp3";
             //string _filePath = @"E:\truyenthanhproject\read_mp3\Binz22.mp3";
             //string _filePath = @"E:\truyenthanhproject\read_mp3\LoveIsBlue.mp3";
             //string _filePath = "LoveIsBlue.mp3"; //in server
-            string _filePath = @"E:\truyenthanhproject\read_mp3\Binz2.mp3";
+            //string _filePath = @"E:\truyenthanhproject\read_mp3\Binz2.mp3";
             //                                                    CRC   ethnernet   IPv4   UDP header
             const int Max_send_buff_length = 1472; //MTU = 1518 - 4 -     14 -      20 -      8  
 
